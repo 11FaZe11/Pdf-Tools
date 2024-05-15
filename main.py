@@ -1,13 +1,11 @@
 import os
+import time
 import tkinter as tk
-from tkinter import filedialog
-from PyPDF2 import PdfReader, PdfWriter
+from tkinter import *
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas
 from docx2pdf import convert
 from pdf2docx import Converter
-import time
-from tkinter import *
 from tkinter import filedialog, messagebox
 from PyPDF2 import PdfFileReader, PdfReader, PdfWriter
 
