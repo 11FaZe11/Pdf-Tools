@@ -7,7 +7,7 @@ from reportlab.pdfgen import canvas
 from docx2pdf import convert
 from pdf2docx import Converter
 import time
-
+## Run in your terminal >>>> pip install PyPDF2 docx2pdf pdf2docx 
 
 
 while True:
